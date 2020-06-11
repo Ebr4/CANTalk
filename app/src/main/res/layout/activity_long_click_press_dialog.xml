@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sentence_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="?attr/backgroundcolor">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="?attr/backgroundcolor"
+    >
+    <RelativeLayout
+        android:id="@+id/rename_relativeLayout_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/backgroundcolor"
+        >
+        <TextView
+            android:id="@+id/rename_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rename"
+            android:textColor="?attr/textcolor"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/updatePhoto_id"
+            android:layout_below="@+id/rename_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/change_image"
+            android:textColor="?attr/textcolor"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/remove_id"
+            android:layout_below="@+id/updatePhoto_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/remove"
+            android:textColor="?attr/textcolor"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:gravity="center"
+            />
+    </RelativeLayout>
+</LinearLayout>
+</android.support.v7.widget.CardView>

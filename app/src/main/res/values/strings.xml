@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">CANTalk</string>
+
+
+    <string name="welcome_screen">This Application was created by AOU/OU students for Non-verbal people</string>
+    <string name="rights">Pictograms’ author: Sergio Palao Origin: ARASAAC (http://arasaac.org) Licenses: CC (BY-NC-SA) Property: Aragon Goberment</string>
+    <string name="name">name</string>
+    <string name="todo">TODO</string>
+    <string name="search">Search</string>
+    <string name="change_image">change image</string>
+    <string name="rename">rename</string>
+    <string name="remove">remove</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="new_label">new label</string>
+    <string name="add">Add</string>
+    <string name="label">Label</string>
+    <string name="image">Image</string>
+    <string name="category">Category</string>
+    <string name="choose_image">Choose Image</string>
+    <string name="no">no</string>
+    <string name="yes">yes</string>
+    <string name="are_you_sure_you_want_to_remove">Are you sure you want to remove ?</string>
+    <string name="image_label">image label</string>
+    <string name="itemimageview">ItemImageView</string>
+    <string name="add_new">Add new</string>
+    <string name="settings">settings</string>
+    <string name="backspace">backSpace</string>
+    <string name="play_button">Play button</string>
+
+</resources>

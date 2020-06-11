@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <!-- remove last image in sentence bar-->
+    <item
+        android:id="@+id/backSpace"
+        android:title="@string/backspace"
+        android:icon="@drawable/backspace_18dp"
+        app:showAsAction="always"
+        >
+    </item>
+    <!-- open settings activity-->
+    <item
+    android:id="@+id/settings"
+    android:title="@string/settings"
+    android:icon="@drawable/settings_18dp"
+    app:showAsAction="always"
+        >
+
+    </item>
+    <!-- open search activity-->
+    <item
+        android:id="@+id/search"
+        android:title="@string/search"
+        android:icon="@drawable/search_18dp"
+        app:showAsAction="always"
+        >
+
+    </item>
+    <!-- open add new dialog Fragment-->
+    <item
+        android:id="@+id/add"
+        android:title="@string/add_new"
+        android:icon="@drawable/add_18dp"
+        app:showAsAction="always"
+        >
+    </item>
+
+</menu>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sentence_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="?attr/backgroundcolor">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="?attr/backgroundcolor"
+    >
+    <RelativeLayout
+        android:id="@+id/rename_relativeLayout_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/backgroundcolor"
+        >
+        <TextView
+            android:id="@+id/rename_textView_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="rename "
+            android:textSize="15sp"
+            android:textColor="?attr/textcolor"
+            />
+
+        <EditText
+            android:id="@+id/rename_editText_id"
+            android:layout_below="@+id/rename_textView_id"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:maxHeight="45dp"
+            android:textColor="?attr/textcolor"
+            android:hint="@string/new_label"
+            android:textColorHint="?attr/textcolor"
+            android:importantForAutofill="no"
+            tools:targetApi="o"
+            android:inputType="textPersonName"
+            android:background="?attr/cardbackground"/>
+
+        <TextView
+            android:id="@+id/rename_button_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rename_editText_id"
+            android:text="@string/ok"
+            android:textColor="?attr/textcolor"
+            android:textSize="15sp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:padding="10dp"
+            />
+        <TextView
+            android:id="@+id/rename_cancel_button_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rename_editText_id"
+            android:layout_toLeftOf="@id/rename_button_id"
+            android:layout_toStartOf="@id/rename_button_id"
+            android:text="@string/cancel"
+            android:textColor="?attr/textcolor"
+            android:textSize="15sp"
+            android:padding="10dp"
+             />
+    </RelativeLayout>
+</LinearLayout>
+
+</android.support.v7.widget.CardView>
