@@ -1,2 +1,4 @@
 # CANTalk
- my graduation basic project :) (newbie to android development)
+ my graduation basic project 2018-2019.
+ 
+
